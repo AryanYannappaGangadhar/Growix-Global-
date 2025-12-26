@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Portal – Forgot Password</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-gradient">
+  <div class="center-wrapper">
+    <div class="glass-card fade-in-up">
+      <h2 class="card-title">Reset your password</h2>
+      <p class="card-subtitle">
+        Enter your email and we will send you a reset link.
+      </p>
+      <form id="forgot-form" class="form">
+        <div class="input-group">
+          <label for="forgot-email">Email</label>
+          <input type="email" id="forgot-email" required autocomplete="email" placeholder="name@growixglobal.com" pattern="^[a-zA-Z0-9._%+-]+@growixglobal\\.com$">
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Reset Link</button>
+      </form>
+      <div class="card-footer">
+        <a href="login.html" class="link">Back to Login</a>
+      </div>
+      <div id="forgot-message" class="message"></div>
+    </div>
+  </div>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
+

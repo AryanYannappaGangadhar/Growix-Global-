@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Growix Global Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-gradient">
+  <div class="center-wrapper">
+    <div class="glass-card fade-in-up">
+      <div class="logo-wrapper">
+        <img src="assets/img/Logo.jpg" alt="Company Logo" class="logo-img">
+        <h1 class="app-title">Growix Global</h1>
+      </div>
+      <h2 class="card-title">Welcome back</h2>
+      <form id="login-form" class="form">
+        <div class="input-group">
+          <label for="login-username">Username or Email</label>
+          <input type="text" id="login-username" required autocomplete="username">
+        </div>
+        <div class="input-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" required autocomplete="current-password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Login</button>
+      </form>
+      <div class="card-footer">
+        <a href="signup.html" class="link">Create Account</a>
+        <a href="forgot.html" class="link">Forgot Password?</a>
+      </div>
+      <div id="login-message" class="message"></div>
+    </div>
+  </div>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
+
